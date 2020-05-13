@@ -40,7 +40,7 @@ class EmailAddressParser
     binding.pry
      @csv_emails.split.each do |each_email|
        each_email.split(',')
-
+end
   end.flatten.uniq
 
 
