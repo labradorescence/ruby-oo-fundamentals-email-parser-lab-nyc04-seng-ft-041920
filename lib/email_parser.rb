@@ -37,6 +37,7 @@ class EmailAddressParser
   end
 
   def parse
+    binding.pry
      @csv_emails.split(',')
 
   end
