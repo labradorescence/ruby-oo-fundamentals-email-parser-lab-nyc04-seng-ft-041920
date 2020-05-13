@@ -38,10 +38,10 @@ class EmailAddressParser
 
   def parse
     binding.pry
-     @csv_emails.split(',')
+     @csv_emails.split.each do |each_email|
+       each_email.split(',')
 
-  end
-  #.flatten.uniq
+  end.flatten.uniq
 
 
 end
