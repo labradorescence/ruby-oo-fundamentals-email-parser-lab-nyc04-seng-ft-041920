@@ -39,8 +39,8 @@ class EmailAddressParser
   def parse(csv_emails)
   #  @csv_emails.split
 
-  end.flatten.uniq
+  end
+  #.flatten.uniq
 
 
 end
-  
